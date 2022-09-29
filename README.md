@@ -2,7 +2,8 @@
 
 
 
-# A verdade só pode ser encontrada em um lugar: o código.
+# The truth can only be found in one place: the code.
+
 # --Robert C. Martin
 
 # 1. Introduction
@@ -24,13 +25,13 @@ Quake game log
 
   	21:42 Kill: 1022 2 22: <world> killed Isgalamido by MOD_TRIGGER_HURT
   
-  O player "Isgalamido" morreu pois estava ferido e caiu de uma altura que o matou.
+  The player "Isgalamido" died because he was injured and fell from a height that killed him.
 
   	2:22 Kill: 3 2 10: Isgalamido killed Dono da Bola by MOD_RAILGUN
   
-  O player "Isgalamido" matou o player Dono da Bola usando a arma Railgun.
+ The player "Isgalamido" killed the player Owner of the Ball using the Railgun weapon.
   
-Para cada jogo o parser deve gerar algo como:
+For each game the parser should generate something like:
 
     game_1: {
 	    total_kills: 45;
@@ -139,3 +140,7 @@ Example
 You are expected to submit a compacted git repository with the project through the form you received.
 
 Enjoy :)
+
+As raízes do estudo são amargas, mas seus frutos são doces.
+
+Aristóteles

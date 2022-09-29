@@ -52,4 +52,4 @@ class Game
 			print "\t\t#{kill}\n"
 		end
 	end
-end
+endgi
